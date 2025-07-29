@@ -1,0 +1,76 @@
+.visit-section {
+  padding: 60px 20px;
+  background-color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.section-header h2 {
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  color: #000000;
+  font-family: 'Abril Fatface';
+}
+
+.section-header p {
+  font-size: 20px;
+  font-family: 'Mukta Mahee',sans-serif;
+  color:#6c757d;
+  max-width: 700px;
+  margin: 0 auto 40px;
+  line-height: 1.7;
+}
+
+.destinations-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 40px;
+}
+
+.destination-card {
+  text-align: left;
+}
+
+.destination-card img {
+  width: 100%;
+  display: block;
+  margin-bottom: 10px;
+  border-radius: 0; /* no border radius */
+}
+
+.destination-card h3 {
+  font-size: 20px;
+  color: #000000;
+  
+  font-weight: 500;
+  font-family: 'Abril Fatface',serif;
+  margin-bottom: 8px;
+}
+
+.stars-review {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.stars {
+  display: flex;
+  gap: 3px;
+}
+
+.star {
+  font-size: 1rem;
+  color: #00bcd4; /* Teal color like screenshot */
+}
+
+.review-count {
+  font-style: italic;
+  font-size: 0.95rem;
+  color: #aaa;
+}

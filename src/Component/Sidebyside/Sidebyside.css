@@ -1,0 +1,122 @@
+.container {
+  padding: 126px 0px;
+}
+
+.partition {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  max-width: 1200px;
+  
+  margin: 0 auto;
+  padding: 126px 0px;
+  box-sizing: border-box;
+}
+
+.left,
+.right {
+  width: 50%;
+  
+  box-sizing: border-box;
+}
+
+.left img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+}
+
+.right h1 {
+  font-size: 40px;
+  margin: 0px 0px 24px;
+  color: #000000;
+  font-family: 'Abril Fatface', serif;
+  text-align: left;
+  font-weight: 200;
+}
+
+.right p {
+  font-size: 18px;
+  margin: 0px 0px 16px;
+  text-align: left;
+  line-height: 1.8;
+}
+
+.video {
+  margin-top: 30px;
+}
+
+/* Play button */
+.video .btn-play {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #65C0BA;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.video .icon {
+  width: 36px;
+  height: 36px;
+  background: transparent;
+  border: 2px solid #ddf0ef;
+  color: #65C0BA;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-right: 12px;
+}
+
+.video .text {
+  align-self: center;
+}
+
+.video .btn-play:hover .icon {
+  color: black;
+  border-color: black;
+}
+
+/* Alt Button (Learn More / Book Now etc.) */
+.btn-alt {
+  display: inline-block;
+  padding: 10px 30px;
+  background-color: #ffffff;
+  border:2px solid #65C0BA;
+  text-decoration: none;
+ letter-spacing: 2px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  font-size: 15px;
+  color: #000000;
+  font-family: 'Mukta Mahee',sans-serif;
+  text-transform: uppercase;
+
+}
+
+.btn-alt:hover {
+  background-color: #4aa69e;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .partition {
+    flex-direction: column;
+  }
+
+  .left,
+  .right {
+    width: 100%;
+  }
+
+  .right {
+    padding: 16px;
+  }
+
+  .container {
+    padding: 80px 16px;
+  }
+}

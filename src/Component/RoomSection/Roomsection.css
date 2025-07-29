@@ -1,0 +1,54 @@
+.half {
+  width: 80vw;
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 120px auto;
+  gap: 30px;
+}
+
+.half.reverse {
+  flex-direction: row-reverse;
+}
+
+.image {
+  flex: 1;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  
+}
+
+.text {
+  flex: 1;
+  height: 100%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.text h2{
+    font-size: 40px;
+    color: #000000;
+    font-family: 'Abril Fatface';
+    font-weight: 500;
+}
+
+.btn-primary {
+  border: 1px solid #65c0ba;
+  
+  padding: 10px 20px;
+  text-transform: uppercase;
+  background: none;
+  cursor: pointer;
+  transition: 0.3s;
+  text-decoration: none;
+width: fit-content;
+color: black;
+}
+
+.btn-primary:hover {
+  background-color: #65c0ba;
+  color: #fff;
+}

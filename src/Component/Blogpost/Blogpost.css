@@ -1,0 +1,133 @@
+.blog-section {
+  background-color: #65c0ba;
+  padding: 126px  0px;
+  position: relative;
+  overflow: hidden;
+}
+
+.blog-post-entry::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 150%;
+  height: 400px;
+  background:  #65c0ba;
+  transform: rotate(-4deg) translateX(-50%) translateY(-100%);
+  z-index: 0;
+}
+
+.blog-section .container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 20px;
+  position: relative;
+  z-index: 1; /* So content stays above slant */
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.header .heading {
+  font-size: 70px;
+  font-family: 'Abril Fatface',serif;
+  margin-bottom: 20px;
+  color: #000000;
+}
+
+.lead {
+  font-size: 20px;
+  color: #ffffffb3;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.posts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.post {
+  flex: 1 1 calc(33.333% - 30px);
+  max-width: calc(33.333% - 30px);
+  box-sizing: border-box;
+}
+
+.media {
+  display: block;
+  background: white;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+
+.image-wrapper {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.post-image {
+  width: 100%;
+  height: auto;
+  
+}
+
+.meta-post {
+  font-size: 18px;
+  color: #ced4da;
+  display: block;
+  margin-bottom: 8px;
+  margin-right: 16px;
+  margin-left: 16px;
+  text-align: left;
+  font-family: 'Mukta Mahee',serif;
+}
+
+.post-title {
+  font-size: 26px;
+  margin-left: 16px;
+  margin-right: 16px;
+  text-align: left;
+  font-family: 'Abril Fatface';
+  font-weight: 500;
+}
+.media-body p{
+  font-size: 18px;
+  font-family: 'Mukta Mahee',sans-serif;
+  text-align: left;
+  margin-left: 16px;
+  margin-right: 16px;
+
+}
+
+
+.post-title a {
+  text-decoration: none;
+  color: #333;
+}
+
+.post-title a:hover {
+  color: #65c0ba;
+}
+
+@media (max-width: 992px) {
+  .post {
+    flex: 1 1 calc(50% - 20px);
+    max-width: calc(50% - 20px);
+  }
+}
+
+@media (max-width: 768px) {
+  .post {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+
+  .blog-section {
+    padding: 3em 0;
+  }
+}

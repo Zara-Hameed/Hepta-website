@@ -1,0 +1,108 @@
+/* src/components/Team.css */
+
+.team-section {
+  padding: 126px 0px;
+  background-color: #f8f9fa;
+}
+
+.container {
+  max-width: 1140px;
+  margin: auto;
+}
+
+.heading-wrapper {
+  margin-bottom: 40px;
+}
+
+.heading {
+  font-size: 2rem;
+  font-family: 'Abril FatFace',serif;
+  margin: 0px 0px 8px;
+  color: #000000;
+  font-weight: 500;
+}
+
+.lead {
+  font-size: 20px;
+  font-family: 'Mukta Mahee',sans-serif;
+  color: #6c757d;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.8;
+}
+
+.team-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.team-card {
+  flex: 0 0 calc(33.333% - 30px);
+  max-width: calc(33.333% - 30px);
+}
+
+.media-custom {
+  background: #fff;
+  padding: 20px;
+  
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s;
+}
+
+.media-custom:hover {
+  transform: translateY(-5px);
+}
+
+.media-custom img {
+  width: 100%;
+  height: auto;
+  
+  margin-bottom: 15px;
+}
+
+.meta-post {
+  display: block;
+  font-size: 18px;
+  color: #ced4da;
+    margin-bottom: 5px;
+    text-align: left;
+    text-transform: uppercase;
+}
+.media-body {
+    padding: 10px 30px;
+}
+.media-body h2 {
+  font-size: 26px;
+  color: #000000;
+  font-family: 'Abril Fatface',sans-serif;
+  margin-bottom: 0;
+  text-align: left;
+  font-weight: 500;
+}
+
+.media-body h2 a {
+  text-decoration: none;
+  color: inherit;
+}
+.media-body h2 a:hover{
+    color:  #65c0ba;
+    transition: 0.8s;
+
+}
+
+@media (max-width: 992px) {
+  .team-card {
+    flex: 0 0 calc(50% - 30px);
+    max-width: calc(50% - 30px);
+  }
+}
+
+@media (max-width: 576px) {
+  .team-card {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}

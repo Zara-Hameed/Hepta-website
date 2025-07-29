@@ -1,0 +1,131 @@
+.footersection{
+    padding: 126px 0px;
+    background: #1a1a1a;
+    font-family: 'Mukta Mahee',serif;
+    color: #ffffff;
+}
+.footercontainer{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.footer-columns{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+.footer-column{
+    flex: 1 1 220px;
+    min-width: 220px;
+}
+.footer-column h3{
+    color: #fff;
+  margin-bottom: 15px;
+  font-family: 'Abril Fatface',Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+
+}
+.footer-column ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.footer-column ul li{
+    margin-bottom: 10px;
+}
+.footer-column ul li a{
+    color: #ffffffb3;
+    text-decoration: none;
+    font-size: 18px;
+
+}
+.footer-column ul li a:hover{
+    color: #ffffff;
+}
+.footer-column p{
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-family: 'Mukta Mahee',serif;
+      color: #ffffffb3;
+}
+.footer-column p i{
+   color: #ffffff;
+}
+
+.newsletter-form {
+  display: flex;
+  
+  overflow: hidden;
+  border-radius: 4px;
+  max-width: 300px;
+  padding: 6px 12px;
+  border-bottom:2px solid #2f2e2eb3;
+  
+}
+
+.newsletter-form input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: #ccc;
+  font-style: italic;
+
+  
+}
+
+
+.newsletter-form button {
+  background: transparent;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+.footer-bottom {
+  border-top: 1px solid #333;
+  padding-top: 20px;
+  text-align: center;
+}
+.footer-bottom a{
+    text-decoration: none;
+      color: #ffffffb3;
+}
+.footer-bottom a:hover{
+    color: #ffffff;
+}
+.footer-bottom p {
+  margin-bottom: 10px;
+  font-size: 14px;
+    color: #ffffffb3;
+  
+}
+.footer-bottom .heart-icon {
+  color: #ffffffb3;
+  margin: 0 5px;
+}
+
+.footer-socials {
+  margin-top: 10px;
+}
+.footer-socials a {
+  color: #ccc;
+  margin: 0 5px;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.footer-socials a:hover {
+  color: #fff;
+}
+.contact-info-block p {
+  margin-bottom: 6px;
+  line-height: 1.5;
+}
+.contact-info-block strong {
+  display: inline-block;
+  margin-top: 10px;
+  color: #fff;
+}

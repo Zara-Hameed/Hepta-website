@@ -1,0 +1,75 @@
+/* Optional Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&display=swap');
+
+.testimonial-section {
+  background-color: #f9f9f9;
+  padding: 80px 20px;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.title-box {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.testimonial-section .heading {
+  font-size: 70px;
+  font-weight: 800;
+  color: #000;
+  font-family: 'Playfair Display', serif;
+}
+
+
+.testimonial-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 60px;
+}
+
+.testimonial-col {
+  flex: 1 1 300px;
+  max-width: 340px;
+  box-sizing: border-box;
+}
+
+.testimonial {
+  background: transparent;
+  text-align: left;
+  padding: 0;
+  box-shadow: none;
+  height: 100%;
+}
+
+.author-image {
+  margin-bottom: 20px;
+}
+
+.circle-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto;
+}
+
+blockquote p {
+  font-style: italic;
+  color: #333;
+  font-size: 18px;
+  line-height: 1.8;
+  margin: 0 auto 15px auto;
+  max-width: 300px;
+}
+
+.author-name {
+  font-size: 16px;
+  font-style: italic;
+  color: #999;
+  margin-top: 5px;
+}

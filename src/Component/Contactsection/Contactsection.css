@@ -1,0 +1,144 @@
+/* src/components/ContactSection.css */
+
+.contact-section {
+  padding: 126px 0px;
+  background-color: #fff;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.contact-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+/* Left form */
+.form-column {
+  flex: 1 1 60%;
+}
+
+.contact-form {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.two-cols .form-group {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.two-cols .form-group:last-child {
+  margin-right: 0;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+     font-size: 18px;
+    margin-bottom: 6px;
+    color: #6c757d;
+    text-align: left;
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  border-radius: 3px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.btn {
+  padding: 8px 16px;
+  border: 1px solid teal;
+  background: transparent;
+  color: teal;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s;
+  width: fit-content;
+}
+
+.btn:hover {
+  background-color: teal;
+  color: white;
+}
+
+/* Right Info */
+.info-column {
+  flex: 1 1 35%;
+  display: flex;
+  align-items: flex-start;
+}
+.contact-info{
+  text-align: left;
+
+}
+
+.contact-info p {
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.contact-info .label {
+  text-transform: uppercase;
+  color: #65c0ba;
+  font-size: 14px;
+  font-family: 'Mukta Mahee',serif;
+  letter-spacing: 2px;
+  font-weight: 900;
+}
+
+
+
+.contact-info strong {
+  color: black;
+ 
+  font-size: 32px;
+  line-height: 1.6;
+  font-family: 'Abril Fatface',serif;
+  font-weight: 500;
+}
+
+.contact-info a {
+  color: black;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .contact-row {
+    flex-direction: column;
+  }
+
+  .two-cols .form-group {
+    margin-right: 0;
+    width: 100%;
+  }
+}
