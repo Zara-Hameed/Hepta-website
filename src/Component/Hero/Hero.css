@@ -1,47 +1,99 @@
-.hero{
-     width: 100%;
-    height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), 
+.hero {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), 
     url('../../assets/hero_1.jpg');
-     background-size: cover;
-    background-position: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 0px 15px;
-   
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 15px;
+  box-sizing: border-box;
 }
-.hero h1{
-    color: #ffffff;
-    font-size: 80px;
-    
-    font-family: 'Abril Fatface',serif;
-    margin: 0px 0px 24px ;
 
+.hero h1 {
+  color: #ffffff;
+  font-size: 80px;
+  font-family: 'Abril Fatface', serif;
+  margin: 0 0 24px;
+  line-height: 1.1;
 }
-.hero p{
-    color: #ffffff;
-    font-size: 30px;
-    margin: 0px 0px 48px;
-    
+
+.hero p {
+  color: #ffffff;
+  font-size: 30px;
+  margin: 0 0 48px;
+  max-width: 700px;
 }
-.hero button{
-    color: #f8f9fa;
-    font-size: 15px;
-    padding: 16px 30px;
-    border-radius: 4px;
-    background: transparent;
-    border: 2px solid #ffffff;
+
+.hero a {
+  color: #ffffff80;
+  text-decoration: none;
+  border-bottom: 2px solid #ffffff80;
 }
-.hero a{
-    color: #ffffff80;
-    text-decoration: none;
-     border-bottom: 2px solid #ffffff80
+
+.hero button {
+  color: #f8f9fa;
+  font-size: 15px;
+  padding: 16px 30px;
+  border-radius: 4px;
+  background: transparent;
+  border: 2px solid #ffffff;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
-.hero button:hover{
-    background-color: #ffffffff;
-    color: black;
-    transition: 0.6s;
+
+.hero button:hover {
+  background-color: #ffffff;
+  color: black;
+}
+
+/* ===================== Responsive ===================== */
+@media (max-width: 992px) {
+  .hero h1 {
+    font-size: 60px;
+  }
+
+  .hero p {
+    font-size: 24px;
+  }
+
+  .hero button {
+    font-size: 14px;
+    padding: 14px 26px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 44px;
+  }
+
+  .hero p {
+    font-size: 20px;
+  }
+
+  .hero button {
+    font-size: 13px;
+    padding: 12px 22px;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero h1 {
+    font-size: 32px;
+  }
+
+  .hero p {
+    font-size: 18px;
+    margin: 0 0 32px;
+  }
+
+  .hero button {
+    font-size: 12px;
+    padding: 10px 20px;
+  }
 }

@@ -1,3 +1,4 @@
+
 .blog-section {
   padding: 60px 20px;
   background-color: #f8f9fa;
@@ -14,7 +15,7 @@
   gap: 40px;
 }
 
-/* Main left content */
+
 .left-content {
   flex: 0 0 66.66%;
 }
@@ -38,6 +39,7 @@
 
 .post-info {
   padding: 15px;
+  text-align: left; /* Ensure vertical left alignment for children */
 }
 
 .post-date {
@@ -45,12 +47,15 @@
   color: #888;
   display: block;
   margin-bottom: 8px;
-  text-align: left; /* Date left-aligned */
+  text-align: left;
 }
 
 .post-title {
   font-size: 26px;
   margin: 0;
+  font-family: 'Abril Fatface', serif;
+  font-weight: 500;
+  text-align: left;
 }
 
 .post-title a {
@@ -63,6 +68,7 @@
   margin-top: 30px;
   display: flex;
   gap: 10px;
+  flex-wrap: wrap;
 }
 
 .pagination a {
@@ -74,11 +80,10 @@
   background: #eeeaea;
   text-decoration: none;
   color: #000;
-  border-radius: 50%; /* makes it a perfect circle */
+  border-radius: 50%;
   font-weight: bold;
   font-size: 14px;
-   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
- 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 .pagination a:hover {
@@ -89,7 +94,6 @@
   background: #00c4a9;
   color: white;
 }
-
 
 /* Sidebar */
 .sidebar {
@@ -107,7 +111,7 @@
   border-radius: 4px;
 }
 
-/* Popular Post and Categories box shadow */
+/* Popular Post and Categories */
 .side-widget {
   margin-bottom: 40px;
   background: white;
@@ -155,7 +159,7 @@
   margin: 0;
   font-size: 16px;
   color: #222;
-  font-family: 'Abril Fatface', serif; 
+  font-family: 'Abril Fatface', serif;
   font-weight: 500;
 }
 
@@ -172,13 +176,89 @@
 
 .category-list a {
   text-decoration: none;
-  color: #65c0ba; /* Custom text color */
+  color: #65c0ba;
   display: flex;
   justify-content: space-between;
   padding-bottom: 8px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.05); /* Light border */
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 }
 
 .category-list span {
   color: #888;
+}
+
+/* ============================
+   ✅ RESPONSIVENESS
+============================== */
+
+@media (max-width: 1024px) {
+  .left-content {
+    flex: 0 0 100%;
+  }
+
+  .post-card {
+    width: calc(50% - 10px);
+  }
+}
+
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column;
+  }
+
+  .left-content,
+  .sidebar {
+    flex: 0 0 100%;
+  }
+
+  .post-card {
+    width: 100%;
+  }
+
+  .post-title {
+    font-size: 22px;
+  }
+
+  .post-date {
+    font-size: 16px;
+  }
+
+  .pagination a {
+    width: 36px;
+    height: 36px;
+    font-size: 13px;
+  }
+
+  .popular-post h5 {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .post-title {
+    font-size: 20px;
+  }
+
+  .post-date {
+    font-size: 14px;
+  }
+
+  .pagination a {
+    width: 32px;
+    height: 32px;
+    font-size: 12px;
+  }
+
+  .popular-post img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .popular-post h5 {
+    font-size: 13px;
+  }
+
+  .side-widget h4 {
+    font-size: 16px;
+  }
 }

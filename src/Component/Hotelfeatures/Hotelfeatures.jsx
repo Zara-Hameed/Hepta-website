@@ -13,8 +13,8 @@ const HotelFeatures = () => {
 
   const features = [
     { id: 1, image: img1, title: "Five Reasons to Stay at Villa Resort", delay: 100 },
-    { id: 2, image: img2, title: "Relax in Premium Rooms & Facilities", delay: 200 },
-    { id: 3, image: img3, title: "Unmatched Natural Beauty Nearby", delay: 300 },
+    { id: 2, image: img2, title: "Five Reasons to Stay at Villa Resort", delay: 200 },
+    { id: 3, image: img3, title: "Five Reasons to Stay at Villa Resort", delay: 300 },
   ];
 
   return (

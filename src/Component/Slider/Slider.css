@@ -1,85 +1,89 @@
-/* ==================== Slider Section Layout ==================== */
+
+body {
+  overflow-x: hidden;
+}
+
 .slidersection {
   text-align: center;
-  padding: 126px 0px;
   background: white;
   max-width: 1140px;
   margin: 0 auto 48px;
-  padding: 0 15px;
+  padding: 100px 15px 0;
   box-sizing: border-box;
+  overflow: hidden;
 }
 
 .sliderheader {
-  text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
-
- .sliderheader .heading {
-  font-size: 70px;
+.sliderheader .heading {
+  font-size: 60px;
   font-family: 'Abril Fatface', serif;
-  color: #000000;
-   font-weight: 500;
-   margin: 0px 0px 8px;
+  color: #000;
+  font-weight: 500;
+  margin-bottom: 16px;
+  line-height: 1.2;
 }
 
 .experiencedescription {
   font-size: 20px;
   color: #6c757d;
   line-height: 1.8;
-  margin: 0px auto;
   max-width: 700px;
+  margin: 0 auto;
 }
 
-/* ==================== Wrapper (for arrows to position absolutely) ==================== */
 .slider-wrapper {
   position: relative;
   width: 100%;
   max-width: 1000px;
   margin: 0 auto;
-  padding: 0 60px; /* for space where arrows go */
+  box-sizing: border-box;
+  padding: 0; 
 }
 
-/* ==================== Arrows OUTSIDE the image ==================== */
+
 .arrow {
-  font-size: 50px;
+  font-size: 36px;
   font-weight: bold;
   color: black;
-  background: none;
+  background: rgba(255, 255, 255, 0.6);
   border: none;
   cursor: pointer;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
   z-index: 10;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
 }
 
 .arrow.left {
-  left: 0;
-  transform: translate(-50%, -50%);
+  left: 10px;
 }
 
 .arrow.right {
-  right: 0;
-  transform: translate(50%, -50%);
+  right: 10px;
 }
 
-/* ==================== Image Container ==================== */
+
 .slidercontainer {
   position: relative;
   width: 100%;
-  max-width: 1000px;
-  margin: 0 auto;
+  overflow: hidden;
 }
 
-/* ==================== Actual Image ==================== */
 .slide-image {
   width: 100%;
   height: auto;
   display: block;
 }
 
-/* ==================== Dots (Bottom Center) ==================== */
+
 .dots {
   position: absolute;
   bottom: 15px;
@@ -92,36 +96,48 @@
   width: 10px;
   height: 10px;
   margin: 0 6px;
-  background-color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(0, 0, 0, 0.3);
   border-radius: 50%;
   cursor: pointer;
   transition: background-color 0.3s;
 }
 
 .dot.active {
-  background-color: #333;
+  background-color: #000;
 }
 
-/* ==================== Responsive ==================== */
-@media (max-width: 768px) {
-  .heading {
-    font-size: 26px;
+
+@media (max-width: 992px) {
+  .sliderheader .heading {
+    font-size: 40px;
   }
 
   .experiencedescription {
     font-size: 18px;
+    padding: 0 10px;
   }
 
   .arrow {
     font-size: 30px;
+    width: 35px;
+    height: 35px;
+  }
+}
+
+@media (max-width: 576px) {
+  .sliderheader .heading {
+    font-size: 28px;
   }
 
-  .slider-wrapper {
-    padding: 0 20px;
+  .experiencedescription {
+    font-size: 16px;
+    line-height: 1.6;
   }
 
-  .dots {
-    bottom: 10px;
+  .arrow {
+    font-size: 24px;
+    width: 30px;
+    height: 30px;
   }
 
   .dot {
