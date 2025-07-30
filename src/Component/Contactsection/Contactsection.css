@@ -1,4 +1,4 @@
-/* src/components/ContactSection.css */
+
 
 .contact-section {
   padding: 126px 0px;
@@ -16,7 +16,6 @@
   gap: 40px;
 }
 
-/* Left form */
 .form-column {
   flex: 1 1 60%;
 }
@@ -86,7 +85,7 @@ textarea {
   color: white;
 }
 
-/* Right Info */
+
 .info-column {
   flex: 1 1 35%;
   display: flex;
@@ -131,7 +130,7 @@ textarea {
   text-decoration: underline;
 }
 
-/* Responsive */
+
 @media (max-width: 768px) {
   .contact-row {
     flex-direction: column;

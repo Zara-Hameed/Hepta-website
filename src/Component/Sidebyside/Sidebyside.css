@@ -48,7 +48,7 @@
   margin-top: 30px;
 }
 
-/* Play button */
+
 .video .btn-play {
   display: flex;
   align-items: center;
@@ -80,7 +80,7 @@
   border-color: black;
 }
 
-/* Alt Button (Learn More / Book Now etc.) */
+
 .btn-alt {
   display: inline-block;
   padding: 10px 30px;

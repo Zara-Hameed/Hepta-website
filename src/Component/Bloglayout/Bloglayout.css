@@ -39,7 +39,7 @@
 
 .post-info {
   padding: 15px;
-  text-align: left; /* Ensure vertical left alignment for children */
+  text-align: left; 
 }
 
 .post-date {
@@ -63,7 +63,7 @@
   color: #111;
 }
 
-/* Pagination */
+
 .pagination {
   margin-top: 30px;
   display: flex;
@@ -95,7 +95,7 @@
   color: white;
 }
 
-/* Sidebar */
+
 .sidebar {
   flex: 1;
 }
@@ -111,7 +111,7 @@
   border-radius: 4px;
 }
 
-/* Popular Post and Categories */
+
 .side-widget {
   margin-bottom: 40px;
   background: white;
@@ -163,7 +163,7 @@
   font-weight: 500;
 }
 
-/* Categories */
+
 .category-list {
   list-style: none;
   padding: 0;
@@ -187,9 +187,7 @@
   color: #888;
 }
 
-/* ============================
-   ✅ RESPONSIVENESS
-============================== */
+
 
 @media (max-width: 1024px) {
   .left-content {

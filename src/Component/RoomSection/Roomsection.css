@@ -1,4 +1,4 @@
-/* Container */
+
 .half {
   width: 90vw;
   min-height: 85vh;
@@ -14,7 +14,6 @@
   flex-direction: row-reverse;
 }
 
-/* Image section */
 .image {
   flex: 1;
   height: 100%;
@@ -47,7 +46,7 @@
   margin-bottom: 16px;
 }
 
-/* Learn More Button */
+
 .btn-primary {
   border: 1px solid #65c0ba;
   padding: 10px 20px;
@@ -67,7 +66,6 @@
   color: white;
 }
 
-/* ✅ Responsive Adjustments */
 @media (max-width: 768px) {
   .half,
   .half.reverse {

@@ -5,7 +5,7 @@
 }
 
 .bg-pattern {
-  background-image: url('../../assets/pattern.png'); /* Optional */
+  background-image: url('../../assets/pattern.png'); 
   background-size: cover;
 }
 
@@ -47,7 +47,7 @@
 
 .media-custom {
   background-color: #fff;
-  border-radius: 0; /* No border radius */
+  border-radius: 0; 
   overflow: hidden;
   transition: transform 0.3s ease;
 }
@@ -77,12 +77,12 @@
   text-decoration: none;
   color: inherit;
   display: inline-block;
-  white-space: pre-line; /* Allows \n to break line */
+  white-space: pre-line; 
 }
 .media-body{
   padding: 10px 30px;
 }
-/* Responsive */
+
 @media (max-width: 768px) {
   .feature-card {
     flex: 1 1 100%;

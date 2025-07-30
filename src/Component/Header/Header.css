@@ -40,7 +40,7 @@
   transition: all 0.3s ease;
 }
 
-/* Fullscreen Navigation */
+
 .fullscreen-menu {
   position: fixed;
   top: 0;
@@ -99,7 +99,6 @@
   color: #86d4cf;
 }
 
-/* Responsive */
 @media (max-width: 768px) {
   .site-header {
     padding: 40px 0;
