@@ -1,4 +1,4 @@
-// src/components/Team.jsx
+
 import React from 'react';
 import '../Team/Team.css'
 

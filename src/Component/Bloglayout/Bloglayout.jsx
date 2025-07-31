@@ -1,4 +1,4 @@
-// src/components/BlogLayout.jsx
+
 import '../Bloglayout/Bloglayout.css'
 
 import img1 from '../../assets/img_1.jpg.webp';
@@ -21,7 +21,7 @@ const BlogLayout = () => {
     <section className="blog-section">
       <div className="container">
         <div className="row">
-          {/* Left Content Area */}
+          
           <div className="left-content">
             <div className="posts-grid">
               {blogPosts.map((post, index) => (
@@ -39,7 +39,7 @@ const BlogLayout = () => {
               ))}
             </div>
 
-            {/* Pagination */}
+           
             <div className="pagination">
               <a href="#" className="active">1</a>
               <a href="#">2</a>
@@ -47,7 +47,7 @@ const BlogLayout = () => {
             </div>
           </div>
 
-          {/* Right Sidebar */}
+         
           <div className="sidebar">
             <div className="search-box">
               <input type="text" placeholder="Search..." />

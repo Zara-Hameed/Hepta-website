@@ -5,8 +5,8 @@ const Experiencecard = ({ image, title, description, aos, delay }) => {
   return (
     <div
       className="card"
-      data-aos={aos}           // animation type, e.g. "fade-up"
-      data-aos-delay={delay}   // staggered delay, e.g. 0, 100, 200...
+      data-aos={aos}           
+      data-aos-delay={delay}   
     >
       <img src={image} alt={title} className="cardicon" />
       <h3 className="title">{title}</h3>

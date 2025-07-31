@@ -35,8 +35,8 @@
   .gallery-item:nth-child(6) { grid-area: 3 / 2 / 4 / 3; }
   .gallery-item:nth-child(7) { grid-area: 4 / 1 / 5 / 2; }
   .gallery-item:nth-child(8) { grid-area: 4 / 2 / 5 / 3; }
-  .gallery-item:nth-child(9) { grid-area: 5 / 1 / 7 / 3; } /* merged */
-  .gallery-item:nth-child(10) { grid-area: 7 / 1 / 9 / 3; } /* merged */
+  .gallery-item:nth-child(9) { grid-area: 5 / 1 / 7 / 3; } 
+  .gallery-item:nth-child(10) { grid-area: 7 / 1 / 9 / 3; } 
   .gallery-item:nth-child(11) { grid-area: 9 / 1 / 10 / 2; }
   .gallery-item:nth-child(12) { grid-area: 9 / 2 / 10 / 3; }
   .gallery-item:nth-child(13) { grid-area: 10 / 1 / 11 / 2; }

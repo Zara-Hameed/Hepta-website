@@ -141,3 +141,63 @@ textarea {
     width: 100%;
   }
 }
+
+@media (max-width: 992px) {
+  .form-column,
+  .info-column {
+    flex: 1 1 100%;
+  }
+
+  .contact-form {
+    padding: 30px 20px;
+  }
+
+  .contact-info strong {
+    font-size: 24px;
+  }
+
+  .btn {
+    font-size: 13px;
+  }
+}
+
+
+@media (max-width: 576px) {
+  .contact-section {
+    padding: 60px 15px;
+  }
+
+  .container {
+    padding: 0 10px;
+  }
+
+  .form-group label {
+    font-size: 16px;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    font-size: 13px;
+    padding: 8px;
+  }
+
+  .contact-info strong {
+    font-size: 18px;
+    line-height: 1.4;
+  }
+
+  .contact-info p {
+    font-size: 13px;
+    margin-bottom: 16px;
+  }
+
+  .contact-info .label {
+    font-size: 12px;
+    letter-spacing: 1px;
+  }
+
+  .btn {
+    font-size: 12px;
+    padding: 6px 12px;
+  }
+}

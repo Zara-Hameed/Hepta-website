@@ -1,18 +1,18 @@
 .experiencegird {
-  padding: 126px 0px;
+  padding: 126px 15px; 
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 40px;
   max-width: 1200px;
   margin: 0 auto;
   background-color: #f9f9f9;
+  box-sizing: border-box;
+  overflow-x: hidden;
 }
-
-
 
 @media (max-width: 768px) {
   .experiencegird {
-    padding: 40px 15px;
+    padding: 40px 15px; 
     gap: 30px;
   }
 }

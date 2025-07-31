@@ -7,7 +7,7 @@ const ContactSection = () => {
     <section className="contact-section">
       <div className="container">
         <div className="contact-row">
-          {/* Left: Form */}
+          
           <div className="form-column">
             <form className="contact-form">
               <div className="row two-cols">
@@ -43,7 +43,6 @@ const ContactSection = () => {
             </form>
           </div>
 
-          {/* Right: Contact Info */}
           <div className="info-column">
             <div className="contact-info">
               <p><span className="label">Address:</span><br />

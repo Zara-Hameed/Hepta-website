@@ -1,4 +1,4 @@
-// src/components/Gallerysection.jsx
+
 import React from 'react';
 import '../Gallery/Gallerysection.css';
 
@@ -18,8 +18,8 @@ const galleryLayout = [
   { src: img5, gridArea: '2 / 2 / 3 / 3' },
   { src: img1, gridArea: '2 / 3 / 3 / 4' },
   { src: img2, gridArea: '2 / 4 / 3 / 5' },
-  { src: img1, gridArea: '3 / 1 / 5 / 3' }, // spans 2 rows and 2 columns
-  { src: img2, gridArea: '3 / 3 / 5 / 5' }, // spans 2 rows and 2 columns
+  { src: img1, gridArea: '3 / 1 / 5 / 3' }, 
+  { src: img2, gridArea: '3 / 3 / 5 / 5' }, 
   { src: img3, gridArea: '5 / 1 / 6 / 2' },
   { src: img5, gridArea: '5 / 2 / 6 / 3' },
   { src: img1, gridArea: '5 / 3 / 6 / 4' },
