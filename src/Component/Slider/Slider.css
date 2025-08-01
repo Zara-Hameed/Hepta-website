@@ -41,6 +41,7 @@ body {
   margin: 0 auto;
   box-sizing: border-box;
   padding: 0; 
+  overflow-x: hidden;
 }
 
 
@@ -144,5 +145,11 @@ body {
     width: 8px;
     height: 8px;
     margin: 0 4px;
+  }
+  .arrow.arrow.left{
+    left: 0;
+  }
+  .arrow.right{
+    right: 0;
   }
 }
